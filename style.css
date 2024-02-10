@@ -5,7 +5,7 @@
     font-family: sans-serif;
 }
 body{
-    background: rgb(140, 191, 241);
+    background: rgb(252, 252, 252);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -16,7 +16,7 @@ body{
     width: 100%;
     max-width: 1200px;
     min-height: 1000px;
-    background: #fff;
+    background: #f3f3f3;
     margin: 50px;
     display: grid;
     grid-template-columns: 1fr 2fr;
@@ -24,7 +24,7 @@ body{
 }
 .container .left{
     position: relative;
-    background: #333e67;
+    background: #e5e6ea;
     padding: 40px;
 }
 .container .right{
@@ -38,7 +38,7 @@ body{
     flex-direction: column;
     align-items: center;
     padding: 20px;
-    border-bottom: 5px solid rgba(255, 255, 255, 0.2);
+    border-bottom: 5px solid rgb(193, 189, 189);
 
 }
 .profileText .profileImg{
@@ -58,7 +58,7 @@ body{
     object-fit: cover;
 } */
 .profileText h2{
-    color: #fff;
+    color: #000000;
     font-size: 1.5em;
     margin-top: 20px;
     text-transform: uppercase;
@@ -68,15 +68,15 @@ body{
 }
 .profileText h2 span{
     font-size: 0.8em;
-    color: #fbfbfb;
+    color: #000000;
     font-weight: 300;
 }
 .Info{
     padding: 20px;
-    border-bottom: 5px solid rgba(255, 255, 255, 0.2);
+    border-bottom: 5px solid rgb(193, 189, 189);
 }
 .tittle{
-    color: #fff;
+    color: #000000;
     text-transform: uppercase;
     font-weight: 600;
     letter-spacing: .04px;
@@ -95,11 +95,11 @@ body{
     display: inline-block;
     width: 30px;
     font-size: 20px;
-    color: #ffffff;
+    color: #010000;
 }
 
 .Info ul li span{
-    color: #fff;
+    color: #080000;
     font-weight: 200;
 }
 
@@ -107,25 +107,25 @@ body{
     margin-bottom: 20px ;
 }
 .Info.education h5{
-    color: #fff;
+    color: #000000;
     font-weight: 500;
 }
 .Info.education h4:nth-child(2){
-    color: #fff;
+    color: #000000;
     font-weight: 500;
 }
 .Info.education h4{
-    color: #fff;
+    color: #000000;
     font-weight: 300;
 }
 .Info.language h3{
-    color: #fff;
+    color: #000000;
 }
 .Info.language .percent{
     position: relative;
     width: 90%;
     height: 5px;
-    background: #f0f0f0;
+    background: #b9b1b1;
     display: block;
     margin-top: 5px;
     
@@ -135,7 +135,7 @@ body{
     top: 0;
     left: 0;
     height: 100%;
-    background: #2fcf7d;
+    background: #000000;
 }
 .container .right{
     position: relative;
@@ -150,7 +150,7 @@ body{
     margin-bottom: 0px;
 }
 .title2{
-    color: rgb(72, 60, 208);
+    color: rgb(0, 0, 0);
     text-transform: uppercase;
     margin-bottom: 10px;
 }
@@ -167,12 +167,12 @@ p{
 }
 .about .box .my_project h5{
     text-transform: uppercase;
-    color: rgb(3, 177, 70);
+    color: rgb(0, 0, 0);
     font: 600;
 }
 .about.box .text h4{
     text-transform: uppercase;
-    color: rgb(12, 89, 156);
+    color: rgb(0, 0, 0);
     font-size: 16px;
 }
 .skills .box{
@@ -192,7 +192,7 @@ p{
     position: relative;
     width: 100%;
     height: 10px;
-    background: #fbfbfb;
+    background: #aca3a3;
 
 }
 .skills .box .percent div{
@@ -200,7 +200,7 @@ p{
     top: 0;
     left: 0;
     height: 100%;
-    background: #04aa54;
+    background: #000000;
 }
 .interest ul{
     display: grid;
@@ -213,7 +213,7 @@ p{
     margin: 12px 0;
 }
 .interest ul li .icon{
-    color: #2fcf7d;
+    color: #000301;
     font-size: 19px;
     width: 35px;
 }
