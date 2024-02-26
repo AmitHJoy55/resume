@@ -11,6 +11,7 @@ body{
     align-items: center;
     min-height: 100vh;
 }
+/* Container Style  */
 .container{
     position: relative;
     width: 100%;
@@ -32,6 +33,7 @@ body{
     background: #fff;
     padding: 40px;
 }
+/* Profile Related Style  */
 .profileText{
     position: relative;
     display: flex;
@@ -75,6 +77,7 @@ body{
     letter-spacing: .04px;
     margin-bottom: 20px;
 }
+/* Info Related Style  */
 .Info .ul{
     position: relative;
 }
@@ -96,6 +99,7 @@ body{
     font-weight: 200;
 }
 
+/* Education Related Style  */
 .Info.education li{
     margin-bottom: 20px ;
 }
@@ -136,6 +140,8 @@ body{
     padding: 40px;
 
 }
+
+/* About Container Style  */
 .about {
     margin-bottom: 50px;
 }
@@ -167,7 +173,9 @@ p{
     text-transform: uppercase;
     color: rgb(0, 0, 0);
     font-size: 16px;
-}
+} 
+
+/* Skill Section Style  */
 .skills .box{
     position: relative;
     width: 100%;
@@ -195,6 +203,8 @@ p{
     height: 100%;
     background: #000000;
 }
+
+/* Interest Section Style  */
 .interest ul{
     display: grid;
     grid-template-columns: repeat(4,1fr);
@@ -210,6 +220,7 @@ p{
     font-size: 19px;
     width: 35px;
 }
+/* Responsiveness handle */
 @media(max-width: 1000px){
     .container{
         margin: 10px;
